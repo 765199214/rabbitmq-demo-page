@@ -9,7 +9,8 @@
 		<dependency>
 			<groupId>com.rabbitmq</groupId>
 			<artifactId>amqp-client</artifactId>
-			<version>4.0.2</version>
+			<!-- 初始使用的是4.0.2 github不兼容换为4.8.0 -->
+			<version>4.8.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
